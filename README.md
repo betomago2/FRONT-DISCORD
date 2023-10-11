@@ -45,8 +45,4 @@ Donde:
 
 - `templates`: Aquí se encuentran los archivos HTML que definen la estructura de cada vista de la aplicación.
 
-## ✒️ Autores
-- [Ivana Maidana](https://github.com/IvanaTwT)
 - [Alberto Pallares](https://github.com/betomago2)
-- [Pablo Rodríguez](https://github.com/Pablo9423)
-- [Nicole Cardozo Gómez](https://github.com/paunicole)
