@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/register.css">
+</head>
+
+<body>
+    <!-- <h1>Welcome!</h1> -->
+    <!-- crear cuenta
+    correo
+    name usu
+    nome person
+    ape person
+    contraseña
+    fechaNac
+confirmar -->
+
+    <div class="conteiner">
+        <h1>Crear cuenta</h1>
+        <form id="myform" action="/register" method="post">
+            <label for="email">Correo electronico</label>
+            <input class="inputs" type="email" id="email" name="email" required>
+            <label for="username">Nombre de usuario</label>
+            <input class="inputs" type="text" id="username" name="username" required>
+            <label for="first_name">Nombre</label>
+            <input class="inputs" type="text" id="first_name" name="first_name">
+            <label for="last_name">Apellido</label>
+            <input class="inputs" type="text" id="last_name" name="last_name">
+            <label for="password">Contraseña</label>
+            <input class="inputs" id="password" name="password" type="password" required>
+            <label for="birthdate">Fecha de nacimiento</label>
+            <input class="inputs" id="birthdate" name="birthdate" type="date" required>
+
+            <button id="bton" type="submit">Confirmar</button>
+        </form>
+    </div>
+    <div id="message"></div>
+
+    <script src="/scripts/register.js"></script>
+</body>
+
+</html>

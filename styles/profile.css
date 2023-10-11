@@ -1,0 +1,143 @@
+body{
+    font-family: 'Reggae One', cursive;
+    background-color: bisque;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.conteiner{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 30px;
+    width: 40%;
+    align-items: center;
+    margin: 50px auto;
+    border-radius: 5px;
+    background-color: rgb(146, 92, 92);
+}
+
+#myform{
+    display: inherit;
+    flex-direction: inherit;
+    align-items: center;
+}
+
+
+
+#select{
+    display: inline;
+}
+
+button{
+    margin-top: 5px;
+}
+
+.my-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px; /* Margen horizontal entre los botones */
+}
+
+.my-button:hover {
+background-color: #45a049;
+}
+
+.my-button:active {
+background-color: #3e8e41;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+/* modal user */
+
+.modal-container {
+    display: none; 
+    position: fixed ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 80%; /* Altura máxima de la ventana emergente */
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(226, 222, 217,0.5);
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    z-index: 1000;
+    color:#000;
+}
+.modal{
+    text-align: center;
+}
+#btonUpdateUser{
+    background-color: #000;
+    color:#fff
+}
+#close{
+    border-radius: 5px;
+    margin-top: 6px;
+    padding: 7px;
+    color:#fff;
+    background-color: #011640;
+}
+
+/* formulario updateUser */
+#updateUser{
+    display: flex;
+    flex-direction: column;
+}
+button#upAvatar{
+    background: #1F5F74;
+  color: white;
+  padding: 6px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button#send{
+    background: #060808;
+  color: white;
+  padding: 6px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+/* contenedor de avatar */
+#conteiner-avatars{
+    display: none; 
+    position: fixed ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 80%; /* Altura máxima de la ventana emergente */
+    width: 300px;
+    padding: 20px;
+    background-color: antiquewhite;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    border-radius: 8px;
+    z-index: 1000;
+    color:#000;
+}
+#conteiner-avatars ul li{
+    list-style-type:none;
+    display: inline;
+}
+#conteiner-avatars ul li img{
+    width: 42px;
+    /* background-color: #011640; */
+}
+#conteiner-avatars ul li:hover{
+    cursor:pointer;
+}
